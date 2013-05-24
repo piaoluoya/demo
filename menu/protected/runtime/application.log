@@ -1,0 +1,251 @@
+2012/12/03 08:20:54 [error] [php] date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. (/var/www/html/testdrive/protected/views/layouts/main.php:51)
+Stack trace:
+#0 /var/www/html/yii/framework/web/CBaseController.php(96): SiteController->renderInternal()
+#1 /var/www/html/yii/framework/web/widgets/CContentDecorator.php(77): SiteController->renderFile()
+#2 /var/www/html/yii/framework/web/widgets/CContentDecorator.php(55): CContentDecorator->decorate()
+#3 /var/www/html/yii/framework/web/widgets/COutputProcessor.php(45): CContentDecorator->processOutput()
+#4 /var/www/html/yii/framework/web/CBaseController.php(207): CContentDecorator->run()
+#5 /var/www/html/yii/framework/web/CBaseController.php(301): SiteController->endWidget()
+#6 /var/www/html/testdrive/protected/views/layouts/column1.php(6): SiteController->endContent()
+#7 /var/www/html/yii/framework/web/CBaseController.php(127): require()
+#8 /var/www/html/yii/framework/web/CBaseController.php(96): SiteController->renderInternal()
+#9 /var/www/html/yii/framework/web/CController.php(785): SiteController->renderFile()
+#10 /var/www/html/testdrive/protected/controllers/SiteController.php(32): SiteController->render()
+#11 /var/www/html/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#12 /var/www/html/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#13 /var/www/html/yii/framework/web/CController.php(287): SiteController->runAction()
+#14 /var/www/html/yii/framework/web/CController.php(266): SiteController->runActionWithFilters()
+#15 /var/www/html/yii/framework/web/CWebApplication.php(283): SiteController->run()
+#16 /var/www/html/yii/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#17 /var/www/html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#18 /var/www/html/testdrive/index.php(13): CWebApplication->run()
+REQUEST_URI=/testdrive/index.php
+in /var/www/html/testdrive/protected/views/layouts/main.php (51)
+in /var/www/html/testdrive/protected/views/layouts/column1.php (6)
+in /var/www/html/testdrive/protected/controllers/SiteController.php (32)
+2012/12/03 08:33:36 [error] [php] date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. (/var/www/html/testdrive/protected/views/layouts/main.php:51)
+Stack trace:
+#0 /var/www/html/yii/framework/web/CBaseController.php(96): SiteController->renderInternal()
+#1 /var/www/html/yii/framework/web/widgets/CContentDecorator.php(77): SiteController->renderFile()
+#2 /var/www/html/yii/framework/web/widgets/CContentDecorator.php(55): CContentDecorator->decorate()
+#3 /var/www/html/yii/framework/web/widgets/COutputProcessor.php(45): CContentDecorator->processOutput()
+#4 /var/www/html/yii/framework/web/CBaseController.php(207): CContentDecorator->run()
+#5 /var/www/html/yii/framework/web/CBaseController.php(301): SiteController->endWidget()
+#6 /var/www/html/testdrive/protected/views/layouts/column1.php(6): SiteController->endContent()
+#7 /var/www/html/yii/framework/web/CBaseController.php(127): require()
+#8 /var/www/html/yii/framework/web/CBaseController.php(96): SiteController->renderInternal()
+#9 /var/www/html/yii/framework/web/CController.php(785): SiteController->renderFile()
+#10 /var/www/html/testdrive/protected/controllers/SiteController.php(32): SiteController->render()
+#11 /var/www/html/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#12 /var/www/html/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#13 /var/www/html/yii/framework/web/CController.php(287): SiteController->runAction()
+#14 /var/www/html/yii/framework/web/CController.php(266): SiteController->runActionWithFilters()
+#15 /var/www/html/yii/framework/web/CWebApplication.php(283): SiteController->run()
+#16 /var/www/html/yii/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#17 /var/www/html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#18 /var/www/html/testdrive/index.php(13): CWebApplication->run()
+REQUEST_URI=/testdrive/index.php
+in /var/www/html/testdrive/protected/views/layouts/main.php (51)
+in /var/www/html/testdrive/protected/views/layouts/column1.php (6)
+in /var/www/html/testdrive/protected/controllers/SiteController.php (32)
+2012/12/03 08:38:40 [error] [php] date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. (/var/www/html/testdrive/protected/views/layouts/main.php:51)
+Stack trace:
+#0 /var/www/html/yii/framework/web/CBaseController.php(96): SiteController->renderInternal()
+#1 /var/www/html/yii/framework/web/widgets/CContentDecorator.php(77): SiteController->renderFile()
+#2 /var/www/html/yii/framework/web/widgets/CContentDecorator.php(55): CContentDecorator->decorate()
+#3 /var/www/html/yii/framework/web/widgets/COutputProcessor.php(45): CContentDecorator->processOutput()
+#4 /var/www/html/yii/framework/web/CBaseController.php(207): CContentDecorator->run()
+#5 /var/www/html/yii/framework/web/CBaseController.php(301): SiteController->endWidget()
+#6 /var/www/html/testdrive/protected/views/layouts/column1.php(6): SiteController->endContent()
+#7 /var/www/html/yii/framework/web/CBaseController.php(127): require()
+#8 /var/www/html/yii/framework/web/CBaseController.php(96): SiteController->renderInternal()
+#9 /var/www/html/yii/framework/web/CController.php(785): SiteController->renderFile()
+#10 /var/www/html/testdrive/protected/controllers/SiteController.php(32): SiteController->render()
+#11 /var/www/html/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#12 /var/www/html/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#13 /var/www/html/yii/framework/web/CController.php(287): SiteController->runAction()
+#14 /var/www/html/yii/framework/web/CController.php(266): SiteController->runActionWithFilters()
+#15 /var/www/html/yii/framework/web/CWebApplication.php(283): SiteController->run()
+#16 /var/www/html/yii/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#17 /var/www/html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#18 /var/www/html/testdrive/index.php(13): CWebApplication->run()
+REQUEST_URI=/testdrive/index.php
+in /var/www/html/testdrive/protected/views/layouts/main.php (51)
+in /var/www/html/testdrive/protected/views/layouts/column1.php (6)
+in /var/www/html/testdrive/protected/controllers/SiteController.php (32)
+2012/12/03 08:38:41 [error] [php] date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. (/var/www/html/testdrive/protected/views/layouts/main.php:51)
+Stack trace:
+#0 /var/www/html/yii/framework/web/CBaseController.php(96): SiteController->renderInternal()
+#1 /var/www/html/yii/framework/web/widgets/CContentDecorator.php(77): SiteController->renderFile()
+#2 /var/www/html/yii/framework/web/widgets/CContentDecorator.php(55): CContentDecorator->decorate()
+#3 /var/www/html/yii/framework/web/widgets/COutputProcessor.php(45): CContentDecorator->processOutput()
+#4 /var/www/html/yii/framework/web/CBaseController.php(207): CContentDecorator->run()
+#5 /var/www/html/yii/framework/web/CBaseController.php(301): SiteController->endWidget()
+#6 /var/www/html/testdrive/protected/views/layouts/column1.php(6): SiteController->endContent()
+#7 /var/www/html/yii/framework/web/CBaseController.php(127): require()
+#8 /var/www/html/yii/framework/web/CBaseController.php(96): SiteController->renderInternal()
+#9 /var/www/html/yii/framework/web/CController.php(785): SiteController->renderFile()
+#10 /var/www/html/testdrive/protected/controllers/SiteController.php(32): SiteController->render()
+#11 /var/www/html/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#12 /var/www/html/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#13 /var/www/html/yii/framework/web/CController.php(287): SiteController->runAction()
+#14 /var/www/html/yii/framework/web/CController.php(266): SiteController->runActionWithFilters()
+#15 /var/www/html/yii/framework/web/CWebApplication.php(283): SiteController->run()
+#16 /var/www/html/yii/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#17 /var/www/html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#18 /var/www/html/testdrive/index.php(13): CWebApplication->run()
+REQUEST_URI=/testdrive/index.php
+in /var/www/html/testdrive/protected/views/layouts/main.php (51)
+in /var/www/html/testdrive/protected/views/layouts/column1.php (6)
+in /var/www/html/testdrive/protected/controllers/SiteController.php (32)
+2012/12/03 08:38:41 [error] [php] date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. (/var/www/html/testdrive/protected/views/layouts/main.php:51)
+Stack trace:
+#0 /var/www/html/yii/framework/web/CBaseController.php(96): SiteController->renderInternal()
+#1 /var/www/html/yii/framework/web/widgets/CContentDecorator.php(77): SiteController->renderFile()
+#2 /var/www/html/yii/framework/web/widgets/CContentDecorator.php(55): CContentDecorator->decorate()
+#3 /var/www/html/yii/framework/web/widgets/COutputProcessor.php(45): CContentDecorator->processOutput()
+#4 /var/www/html/yii/framework/web/CBaseController.php(207): CContentDecorator->run()
+#5 /var/www/html/yii/framework/web/CBaseController.php(301): SiteController->endWidget()
+#6 /var/www/html/testdrive/protected/views/layouts/column1.php(6): SiteController->endContent()
+#7 /var/www/html/yii/framework/web/CBaseController.php(127): require()
+#8 /var/www/html/yii/framework/web/CBaseController.php(96): SiteController->renderInternal()
+#9 /var/www/html/yii/framework/web/CController.php(785): SiteController->renderFile()
+#10 /var/www/html/testdrive/protected/controllers/SiteController.php(32): SiteController->render()
+#11 /var/www/html/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#12 /var/www/html/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#13 /var/www/html/yii/framework/web/CController.php(287): SiteController->runAction()
+#14 /var/www/html/yii/framework/web/CController.php(266): SiteController->runActionWithFilters()
+#15 /var/www/html/yii/framework/web/CWebApplication.php(283): SiteController->run()
+#16 /var/www/html/yii/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#17 /var/www/html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#18 /var/www/html/testdrive/index.php(13): CWebApplication->run()
+REQUEST_URI=/testdrive/index.php
+in /var/www/html/testdrive/protected/views/layouts/main.php (51)
+in /var/www/html/testdrive/protected/views/layouts/column1.php (6)
+in /var/www/html/testdrive/protected/controllers/SiteController.php (32)
+2012/12/03 08:38:41 [error] [php] date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. (/var/www/html/testdrive/protected/views/layouts/main.php:51)
+Stack trace:
+#0 /var/www/html/yii/framework/web/CBaseController.php(96): SiteController->renderInternal()
+#1 /var/www/html/yii/framework/web/widgets/CContentDecorator.php(77): SiteController->renderFile()
+#2 /var/www/html/yii/framework/web/widgets/CContentDecorator.php(55): CContentDecorator->decorate()
+#3 /var/www/html/yii/framework/web/widgets/COutputProcessor.php(45): CContentDecorator->processOutput()
+#4 /var/www/html/yii/framework/web/CBaseController.php(207): CContentDecorator->run()
+#5 /var/www/html/yii/framework/web/CBaseController.php(301): SiteController->endWidget()
+#6 /var/www/html/testdrive/protected/views/layouts/column1.php(6): SiteController->endContent()
+#7 /var/www/html/yii/framework/web/CBaseController.php(127): require()
+#8 /var/www/html/yii/framework/web/CBaseController.php(96): SiteController->renderInternal()
+#9 /var/www/html/yii/framework/web/CController.php(785): SiteController->renderFile()
+#10 /var/www/html/testdrive/protected/controllers/SiteController.php(32): SiteController->render()
+#11 /var/www/html/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#12 /var/www/html/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#13 /var/www/html/yii/framework/web/CController.php(287): SiteController->runAction()
+#14 /var/www/html/yii/framework/web/CController.php(266): SiteController->runActionWithFilters()
+#15 /var/www/html/yii/framework/web/CWebApplication.php(283): SiteController->run()
+#16 /var/www/html/yii/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#17 /var/www/html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#18 /var/www/html/testdrive/index.php(13): CWebApplication->run()
+REQUEST_URI=/testdrive/index.php
+in /var/www/html/testdrive/protected/views/layouts/main.php (51)
+in /var/www/html/testdrive/protected/views/layouts/column1.php (6)
+in /var/www/html/testdrive/protected/controllers/SiteController.php (32)
+2012/12/07 09:28:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in /var/www/html/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('gii')
+#1 /var/www/html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/html/testdrive/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/testdrive/index.php?r=gii
+---
+2012/12/07 09:29:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in /var/www/html/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('gii')
+#1 /var/www/html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/html/testdrive/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/testdrive/index.php?r=gii
+---
+2012/12/07 09:29:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in /var/www/html/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('gii')
+#1 /var/www/html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/html/testdrive/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/testdrive/index.php?r=gii
+---
+2012/12/07 09:29:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in /var/www/html/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('gii')
+#1 /var/www/html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/html/testdrive/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/testdrive/index.php?r=gii
+---
+2012/12/07 09:31:20 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /var/www/html/yii/framework/gii/GiiModule.php:169
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(264): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /var/www/html/yii/framework/web/CWebApplication.php(283): CController->run('')
+#2 /var/www/html/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('gii')
+#3 /var/www/html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /var/www/html/testdrive/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/testdrive/index.php?r=gii
+---
+2012/12/07 09:34:00 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /var/www/html/yii/framework/gii/GiiModule.php:169
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(264): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /var/www/html/yii/framework/web/CWebApplication.php(283): CController->run('')
+#2 /var/www/html/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('gii')
+#3 /var/www/html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /var/www/html/testdrive/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/testdrive/index.php?r=gii
+---
+2012/12/07 09:34:01 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /var/www/html/yii/framework/gii/GiiModule.php:169
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(264): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /var/www/html/yii/framework/web/CWebApplication.php(283): CController->run('')
+#2 /var/www/html/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('gii')
+#3 /var/www/html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /var/www/html/testdrive/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/testdrive/index.php?r=gii
+---
+2012/12/07 09:42:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/admin".' in /var/www/html/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('user/admin')
+#1 /var/www/html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/html/testdrive/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/testdrive/index.php?r=user/admin
+---
+2012/12/13 11:38:16 [error] [exception.CException] exception 'CException' with message 'CAssetManager.basePath "/var/www/html/menu/assets" is invalid. Please make sure the directory exists and is writable by the Web server process.' in /var/www/html/yii/framework/web/CAssetManager.php:128
+Stack trace:
+#0 /var/www/html/yii/framework/web/CAssetManager.php(113): CAssetManager->setBasePath('/var/www/html/m...')
+#1 /var/www/html/yii/framework/web/CAssetManager.php(235): CAssetManager->getBasePath()
+#2 /var/www/html/yii/framework/gii/GiiModule.php(143): CAssetManager->publish('/var/www/html/y...')
+#3 /var/www/html/yii/framework/base/CComponent.php(112): GiiModule->getAssetsUrl()
+#4 /var/www/html/yii/framework/base/CModule.php(106): CComponent->__get('assetsUrl')
+#5 /var/www/html/yii/framework/gii/views/layouts/main.php(5): CModule->__get('assetsUrl')
+#6 /var/www/html/yii/framework/web/CBaseController.php(127): require('/var/www/html/y...')
+#7 /var/www/html/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/var/www/html/y...', Array, true)
+#8 /var/www/html/yii/framework/web/widgets/CContentDecorator.php(77): CBaseController->renderFile('/var/www/html/y...', Array, true)
+#9 /var/www/html/yii/framework/web/widgets/CContentDecorator.php(55): CContentDecorator->decorate('<div class="con...')
+#10 /var/www/html/yii/framework/web/widgets/COutputProcessor.php(45): CContentDecorator->processOutput('<div class="con...')
+#11 /var/www/html/yii/framework/web/CBaseController.php(207): COutputProcessor->run()
+#12 /var/www/html/yii/framework/web/CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#13 /var/www/html/yii/framework/gii/views/layouts/column1.php(7): CBaseController->endContent()
+#14 /var/www/html/yii/framework/web/CBaseController.php(127): require('/var/www/html/y...')
+#15 /var/www/html/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/var/www/html/y...', Array, true)
+#16 /var/www/html/yii/framework/web/CController.php(785): CBaseController->renderFile('/var/www/html/y...', Array, true)
+#17 /var/www/html/yii/framework/gii/controllers/DefaultController.php(47): CController->render('login', Array)
+#18 /var/www/html/yii/framework/web/actions/CInlineAction.php(50): DefaultController->actionLogin()
+#19 /var/www/html/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#20 /var/www/html/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#21 /var/www/html/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 /var/www/html/yii/framework/web/CWebApplication.php(283): CController->run('login')
+#23 /var/www/html/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('gii/default/log...')
+#24 /var/www/html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#25 /var/www/html/menu/index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/menu/index.php?r=gii/default/login
+---
